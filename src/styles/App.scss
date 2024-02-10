@@ -1,0 +1,74 @@
+@import 'core/reset';
+.headerImg {
+	height: 30vh;
+	width: 100%;
+	background-image: url('../images/header.png');
+	background-position: center;
+	display: flex;
+	justify-content: center;
+}
+.headerLogo {
+	height: 20vh;
+	margin-top: 20px;
+}
+li {
+	list-style: none;
+}
+.charImg {
+	width: 150px;
+	height: 200px;
+}
+.charSection {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px;
+	justify-content: space-around;
+}
+.charLink {
+	text-decoration: none;
+	color: black;
+}
+.charDetail {
+	margin: 0 auto;
+	width: 50%;
+	background-color: lightblue;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.backButton {
+	padding-bottom: 10px;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+}
+.backButton:hover {
+	border-radius: 10px;
+	background-color: cadetblue;
+	width: 60px;
+}
+.form {
+	height: 100px;
+	background-color: lightgray;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+}
+.input {
+	margin-right: 20px;
+}
+.label {
+	margin-right: 10px;
+}
+.resetButton {
+	width: 45px;
+	height: 25px;
+	margin-top: 10px;
+}
+.resetButton:hover {
+	box-shadow: darkgoldenrod;
+	border: 2px solid darkgoldenrod;
+}
