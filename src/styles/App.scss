@@ -1,4 +1,7 @@
 @import 'core/reset';
+html {
+	font-family: 'Roboto', sans-serif;
+}
 .headerImg {
 	height: 30vh;
 	width: 100%;
@@ -21,7 +24,7 @@ li {
 .charSection {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 15px;
+	gap: 20px;
 	justify-content: space-around;
 }
 .charLink {
@@ -30,32 +33,50 @@ li {
 }
 .charDetail {
 	margin: 0 auto;
-	width: 50%;
-	background-color: lightblue;
+	margin-top: 10px;
+	width: 30%;
+	background-color: rgb(212, 193, 143);
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
 .backButton {
-	padding-bottom: 10px;
-	text-decoration: none;
 	color: black;
-	text-align: center;
+	border: 2px solid darkgoldenrod;
+	border-radius: 0px;
+	padding: 10px 20px;
+	font-size: 14px;
+	letter-spacing: 1px;
+	cursor: pointer;
+	box-shadow: inset 0 0 0 0 darkgoldenrod;
+	-webkit-transition: ease-out 0.4s;
+	-moz-transition: ease-out 0.4s;
+	transition: ease-out 0.4s;
 }
 .backButton:hover {
-	border-radius: 10px;
-	background-color: cadetblue;
-	width: 60px;
+	box-shadow: inset 0 0 0 50px darkgoldenrod;
+}
+.charResult {
+	font-weight: bold;
+}
+.houseDiv {
+	display: inline;
 }
 .form {
-	height: 100px;
-	background-color: lightgray;
+	text-align: center;
+	width: 90%;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	height: 105px;
+	background-color: white;
+	box-shadow: 10px 10px 20px darkgoldenrod;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	margin: 0 auto;
+	padding: 20px;
 }
 .input {
 	margin-right: 20px;
@@ -71,4 +92,15 @@ li {
 .resetButton:hover {
 	box-shadow: darkgoldenrod;
 	border: 2px solid darkgoldenrod;
+}
+.detailImg {
+	height: 200px;
+	width: 150px;
+}
+.houseImg {
+	width: 30px;
+	height: 30px;
+}
+.detailError {
+	font-size: 20px;
 }

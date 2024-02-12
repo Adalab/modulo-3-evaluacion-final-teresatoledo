@@ -7,6 +7,7 @@ function Filters({
 	handleResetButton,
 	selectValue,
 	setGenderValue,
+	genderValue,
 }) {
 	const handleInput = (event) => {
 		setFilterCharacter(event.target.value);
@@ -58,7 +59,12 @@ function Filters({
 						Select the gender
 					</label>
 
-					<select name="gender" id="gender" onChange={handleGender}>
+					<select
+						name="gender"
+						id="gender"
+						onChange={handleGender}
+						value={genderValue}
+					>
 						<option value="">All</option>
 						<option value="male">Male</option>
 						<option value="female">Female</option>
@@ -78,6 +84,7 @@ Filters.propTypes = {
 	filterCharacter: PropTypes.string,
 	handleResetButton: PropTypes.func,
 	selectValue: PropTypes.string,
-	setGenderValue: PropTypes.string,
+	setGenderValue: PropTypes.func,
+	genderValue: PropTypes.string,
 };
 export default Filters;

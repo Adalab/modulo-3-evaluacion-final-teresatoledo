@@ -39,7 +39,9 @@ function App() {
 	const handleResetButton = () => {
 		setSelectValue('Gryffindor');
 		setFilterCharacter('');
+		setGenderValue('');
 	};
+
 	return (
 		<>
 			<Header />
@@ -55,6 +57,7 @@ function App() {
 								handleResetButton={handleResetButton}
 								selectValue={selectValue}
 								setGenderValue={setGenderValue}
+								genderValue={genderValue}
 							/>
 							{resultMessage && (
 								<h2>
