@@ -1,8 +1,24 @@
-# React + Vite
+# README: Buscador de personajes de Harry Potter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto de React es un buscador de personajes de Harry Potter que utiliza HTML, SASS y JS para su implementación. Proporciona una interfaz amigable para explorar y filtrar personajes de la saga.
 
-Currently, two official plugins are available:
+## Características principales
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-   Búsqueda por nombre: Los usuarios pueden buscar personajes por su nombre utilizando el filtro de búsqueda.
+-   Filtrado por casa: Los personajes pueden filtrarse por casa, con opciones disponibles para Gryffindor, Slytherin, Hufflepuff y Ravenclaw.
+-   Filtrado por género: Los usuarios pueden filtrar personajes por género, eligiendo entre masculino, femenino y todos.
+-   Botón de reset: Se proporciona un botón para restablecer los filtros y mostrar todos los personajes de Gryffindor por defecto.
+-   Detalles del personaje: Al hacer clic en un personaje, se abre una nueva página que muestra información detallada sobre ese personaje.
+
+## Tecnologías utilizadas
+
+-   React: La interfaz de usuario está construida utilizando React, permitiendo un flujo de datos eficiente y una actualización dinámica de la interfaz.
+-   HTML: El marcado estructural de la aplicación está hecho con HTML para una semántica clara y accesible.
+-   SASS: Se utiliza SASS para la generación de estilos, permitiendo una fácil gestión de la apariencia y el diseño de la aplicación.
+-   JavaScript: El comportamiento dinámico de la aplicación, incluidos los filtros y la interacción con los personajes, se implementa con JavaScript.
+
+## Licencia
+
+Este proyecto está bajo la licencia MIT.
+
+¡Disfruta explorando el mundo mágico de Harry Potter con este buscador de personajes! 🧙‍♂️🔍
